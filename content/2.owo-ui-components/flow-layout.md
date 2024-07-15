@@ -1,12 +1,7 @@
 ---
-title: Flow Layout
-project: owo
+title: "Flow Layout"
+category: owo-ui
 ---
-
-# Flow Layout
-
-:material-xml: `#!xml <flow-layout>`<br>
-:material-language-java: `#!java Containers.verticalFlow(...)` | `#!java Containers.horizontalFlow(...)`
 
 The flow layout component arranges its children in a vertical or horizontal flow. It supports various alignment and sizing options.
 

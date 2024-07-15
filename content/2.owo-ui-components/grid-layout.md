@@ -1,12 +1,7 @@
 ---
-title: Grid Layout
-project: owo
+title: "Grid Layout"
+category: owo-ui
 ---
-
-# Grid Layout
-
-:material-xml: `#!xml <grid-layout>`<br>
-:material-language-java: `#!java Containers.grid(...)`
 
 The grid layout component arranges its children in a grid with a specified number of rows and columns. It supports various alignment and sizing options.
 

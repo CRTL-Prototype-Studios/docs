@@ -1,34 +1,38 @@
 ---
-title: Button
-project: owo
+title: 'Button'
+description: 'The Button Component.'
+category: owo-ui
 ---
-
-# Button
-
-:material-xml: `#!xml <button>`<br>
-:material-language-java: `#!java Components.button(...)`
 
 The button component represents a clickable button. It can display text and respond to click events.
 
-**Parameters:**
+## Parameters
 
-- `text` (required): The text to display on the button.
-- `active`: Whether the button is active or not.
-- `renderer`: The button renderer to use for custom button styles.
+::field-group
+  ::field{name="text" type="string" required}
+  The text to display on the button.
+  ::
+  ::field{name="active" type="boolean"}
+  Whether the button is active or not.
+  ::
+  ::field{name="renderer"}
+  The button renderer to use for custom button styles.
+  ::
+::
 
-**Example (Code-driven):**
+## Examples
 
-```java
+::code-group
+```java [Button.java]
 Components.button(Text.literal("Click me!"), button -> {
     // Handle button click event
 })
 ```
 
-**Example (Data-driven):**
-
-```xml
+```xml [buttom.xml]
 <button>
     <text>Click me!</text>
     <active>true</active>
 </button>
 ```
+::

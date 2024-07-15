@@ -1,12 +1,7 @@
 ---
-title: Label
-project: owo
+title: "Label"
+category: owo-ui
 ---
-
-# Label
-
-:material-xml: `#!xml <label>`<br>
-:material-language-java: `#!java Components.label(...)`
 
 The label component is used to display text on the screen. It supports various text alignment options and can be styled with different colors and shadow effects.
 

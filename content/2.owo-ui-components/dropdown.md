@@ -1,16 +1,12 @@
 ---
-title: Dropdown
-project: owo
+title: "Dropdown"
+description: "The Dropdown Component."
+category: owo-ui
 ---
-
-# Dropdown
-
-:material-xml: `#!xml <dropdown>`<br>
-:material-language-java: `#!java Components.dropdown(...)`
 
 The dropdown component creates a dropdown menu with various entries such as buttons, checkboxes, and nested dropdowns. It supports customizable entries and various sizing and alignment options.
 
-**Parameters:**
+## Parameters
 
 - `close-when-not-hovered`: Whether to automatically close the dropdown when the mouse is not hovering over it.
 - `entries`: The entries of the dropdown menu.
@@ -20,9 +16,10 @@ The dropdown component creates a dropdown menu with various entries such as butt
 - `vertical-alignment`: The vertical alignment of the dropdown entries.
 - `allow-overflow`: Whether to allow the dropdown entries to overflow the bounds of the dropdown.
 
-**Example (Code-driven):**
+## Examples
 
-```java
+::code-group
+```java [Dropdown.java]
 Components.dropdown()
     .button(Text.literal("Option 1"), button -> {
         // Handle button click event
@@ -38,9 +35,7 @@ Components.dropdown()
     .surface(Surface.TOOLTIP)
 ```
 
-**Example (Data-driven):**
-
-```xml
+```xml [dropdown.xml]
 <dropdown>
     <close-when-not-hovered>true</close-when-not-hovered>
     <entries>
@@ -65,3 +60,4 @@ Components.dropdown()
     </surface>
 </dropdown>
 ```
+::

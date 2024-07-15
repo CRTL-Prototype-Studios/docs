@@ -1,16 +1,12 @@
 ---
-title: Collapsible Container
-project: owo
+title: "Collapsible Container"
+description: "The Collapsible Container Component."
+category: owo-ui
 ---
-
-# Collapsible Container
-
-:material-xml: `#!xml <collapsible>`<br>
-:material-language-java: `#!java Containers.collapsible(...)`
 
 The collapsible container component allows you to create a collapsible section that can be expanded or collapsed. It supports a title text and various sizing and alignment options.
 
-**Parameters:**
+## Parameters
 
 - `expanded`: Whether the collapsible container is initially expanded or not.
 - `text`: The title text of the collapsible container.
@@ -20,9 +16,10 @@ The collapsible container component allows you to create a collapsible section t
 - `vertical-alignment`: The vertical alignment of the child components.
 - `allow-overflow`: Whether to allow child components to overflow the bounds of the collapsible container.
 
-**Example (Code-driven):**
+## Examples
 
-```java
+::code-group
+```java [CollapsibleContainer.java]
 Containers.collapsible(Text.literal("Collapsible Section"), true)
     .child(Components.label(Text.literal("Content")))
     .padding(Insets.of(10))
@@ -31,9 +28,7 @@ Containers.collapsible(Text.literal("Collapsible Section"), true)
     .verticalAlignment(VerticalAlignment.CENTER)
 ```
 
-**Example (Data-driven):**
-
-```xml
+```xml [collapsible-container.xml]
 <collapsible expanded="true">
     <text>Collapsible Section</text>
     <children>
@@ -51,3 +46,4 @@ Containers.collapsible(Text.literal("Collapsible Section"), true)
     <vertical-alignment>center</vertical-alignment>
 </collapsible>
 ```
+::

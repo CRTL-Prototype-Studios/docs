@@ -1,34 +1,37 @@
 ---
-title: Checkbox
-project: owo
+title: "Checkbox"
+description: "The Checkbox Component."
+category: owo-ui
 ---
-
-# Checkbox
-
-:material-xml: `#!xml <checkbox>`<br>
-:material-language-java: `#!java Components.checkbox(...)`
 
 The checkbox component represents a toggleable checkbox. It can display text alongside the checkbox.
 
-**Parameters:**
+## Parameters
+::field-group
+  ::field{name='text' type='string'}
+  The text to display next to the checkbox.
+  ::
+  ::field{name='checked' type='boolean'}
+  Whether the checkbox is checked or not.
+  ::
+  ::field{name='active' type='boolean'}
+  Whether the checkbox is active or not.
+  ::
+::
 
-- `text`: The text to display next to the checkbox.
-- `checked`: Whether the checkbox is checked or not.
-- `active`: Whether the checkbox is active or not.
+## Examples
 
-**Example (Code-driven):**
-
-```java
+::code-group
+```java [Checkbox.java]
 Components.checkbox(Text.literal("Option"), true)
     .active(false)
 ```
 
-**Example (Data-driven):**
-
-```xml
+```xml [checkbox.xml]
 <checkbox>
     <text>Option</text>
     <checked>true</checked>
     <active>false</active>
 </checkbox>
 ```
+::

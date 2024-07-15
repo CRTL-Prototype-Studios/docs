@@ -1,12 +1,7 @@
 ---
-title: Scroll Container
-project: owo
+title: "Scroll Container"
+category: owo-ui
 ---
-
-# Scroll Container
-
-:material-xml: `#!xml <scroll>`<br>
-:material-language-java: `#!java Containers.verticalScroll(...)` | `#!java Containers.horizontalScroll(...)`
 
 The scroll container component creates a scrollable area for its child components. It supports vertical and horizontal scrolling, customizable scrollbars, and various sizing and alignment options.
 
