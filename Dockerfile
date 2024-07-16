@@ -1,5 +1,7 @@
 FROM node:18-alpine
 
+RUN npm install pnpm
+
 ARG NUXT_UI_PRO_LICENSE
 ENV NUXT_UI_PRO_LICENSE=$NUXT_UI_PRO_LICENSE
 ARG SITE_PORT
@@ -10,8 +12,6 @@ ENV NUXT_PUBLIC_SITE_URL=$NUXT_PUBLIC_SITE_URL
 WORKDIR /app
 
 COPY package*.json ./
-RUN npm install -g pnpm
-
 RUN pnpm install
 
 COPY . .
