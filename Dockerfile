@@ -13,6 +13,8 @@ WORKDIR /app
 
 COPY package*.json ./
 COPY .npmrc ./
+COPY core.mjs ./.output/server/node_modules/shiki/dist/
+
 RUN npm install
 
 COPY . .

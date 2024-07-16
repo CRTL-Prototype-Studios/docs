@@ -26,6 +26,7 @@
     "@nuxt/eslint": "^0.3.13",
     "@nuxthq/studio": "^2.0.3",
     "eslint": "^9.6.0",
-    "vue-tsc": "^2.0.26"
+    "vue-tsc": "^2.0.26",
+    "shiki": "^1.10.3"
   }
 }
