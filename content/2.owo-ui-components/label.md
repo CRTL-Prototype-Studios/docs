@@ -1,23 +1,41 @@
 ---
 title: "Label"
+description: "The Label Component."
 category: owo-ui
 ---
 
 The label component is used to display text on the screen. It supports various text alignment options and can be styled with different colors and shadow effects.
 
-**Parameters:**
+## Parameters
 
-- `text` (required): The text to display in the label.
-- `max-width`: The maximum width of the label in pixels.
-- `line-height`: The line height of the text in pixels.
-- `color`: The color of the text.
-- `shadow`: Whether to apply a shadow effect to the text.
-- `vertical-text-alignment`: The vertical alignment of the text within the label.
-- `horizontal-text-alignment`: The horizontal alignment of the text within the label.
+::field-group
+  ::field{name='text' type='string' required}
+  The text to display in the label.
+  ::
+  ::field{name='max-width' type='int'}
+  The maximum width of the label in pixels.
+  ::
+  ::field{name='line-height' type='int'}
+  The line height of the text in pixels.
+  ::
+  ::field{name='color' type='red | yellow | blue | green | gray | purple | ...'}
+  The color of the text.
+  ::
+  ::field{name='shadow' type='boolean'}
+  Whether to apply a shadow effect to the text.
+  ::
+  ::field{name='horizontal-alignment' type='left | right | center'}
+  The horizontal alignment of the child components.
+  ::
+  ::field{name='vertical-alignment' type='top | middle | bottom'}
+  The vertical alignment of the child components.
+  ::
+::
 
-**Example (Code-driven):**
+## Examples
 
-```java
+::code-group
+```java [Label.java]
 Components.label(Text.literal("Hello, World!"))
     .color(0xffffff)
     .shadow(true)
@@ -25,9 +43,7 @@ Components.label(Text.literal("Hello, World!"))
     .verticalTextAlignment(VerticalAlignment.CENTER)
 ```
 
-**Example (Data-driven):**
-
-```xml
+```xml [label.xml]
 <label>
     <text>Hello, World!</text>
     <color>#ffffff</color>
@@ -36,3 +52,4 @@ Components.label(Text.literal("Hello, World!"))
     <vertical-text-alignment>center</vertical-text-alignment>
 </label>
 ```
+::

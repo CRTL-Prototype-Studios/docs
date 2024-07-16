@@ -10,7 +10,7 @@ const { header } = useAppConfig()
   <UHeader>
     <template #logo>
       <template v-if="header?.logo?.dark || header?.logo?.light">
-        <UColorModeImage v-bind="{ class: 'h-6 w-auto', ...header?.logo }" />
+        <UColorModeImage v-bind="{ class: 'h-6 w-auto rounded-lg', ...header?.logo }" />
       </template>
       <template v-else>
         CRTL Docs <UBadge

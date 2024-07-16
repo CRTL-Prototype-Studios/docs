@@ -10,46 +10,31 @@ export default defineAppConfig({
     }
   },
   seo: {
-    siteName: 'Nuxt UI Pro - Docs template'
+    siteName: 'CRTL Prototype Studio Docs'
   },
   header: {
     logo: {
-      alt: '',
-      light: '',
-      dark: ''
+      alt: '/studio_light.png',
+      light: '/studio_light.png',
+      dark: '/studio_dark.png'
     },
     search: true,
     colorMode: true,
     links: [{
       'icon': 'i-simple-icons-github',
-      'to': 'https://github.com/nuxt-ui-pro/docs',
+      'to': 'https://github.com/crtl-prototype-studios/docs',
       'target': '_blank',
-      'aria-label': 'Docs template on GitHub'
+      'aria-label': 'Source Code on GitHub'
     }]
   },
   footer: {
-    credits: 'Copyright © 2023',
+    credits: 'Copyright CRTL Prototype Studios© 2022-2025',
     colorMode: false,
     links: [{
-      'icon': 'i-simple-icons-nuxtdotjs',
-      'to': 'https://nuxt.com',
-      'target': '_blank',
-      'aria-label': 'Nuxt Website'
-    }, {
-      'icon': 'i-simple-icons-discord',
-      'to': 'https://discord.com/invite/ps2h6QT',
-      'target': '_blank',
-      'aria-label': 'Nuxt UI on Discord'
-    }, {
-      'icon': 'i-simple-icons-x',
-      'to': 'https://x.com/nuxt_js',
-      'target': '_blank',
-      'aria-label': 'Nuxt on X'
-    }, {
       'icon': 'i-simple-icons-github',
-      'to': 'https://github.com/nuxt/ui',
+      'to': 'https://github.com/crtl-prototype-studios/docs',
       'target': '_blank',
-      'aria-label': 'Nuxt UI on GitHub'
+      'aria-label': 'Source Code on GitHub'
     }]
   },
   toc: {
@@ -60,17 +45,12 @@ export default defineAppConfig({
       links: [{
         icon: 'i-heroicons-star',
         label: 'Star on GitHub',
-        to: 'https://github.com/nuxt/ui',
+        to: 'https://github.com/crtl-prototype-studios/docs',
         target: '_blank'
       }, {
         icon: 'i-heroicons-book-open',
-        label: 'Nuxt UI Pro docs',
-        to: 'https://ui.nuxt.com/pro/guide',
-        target: '_blank'
-      }, {
-        icon: 'i-simple-icons-nuxtdotjs',
-        label: 'Purchase a license',
-        to: 'https://ui.nuxt.com/pro/purchase',
+        label: 'Studio Main Site',
+        to: 'https://crtl-prototype-studios.cn',
         target: '_blank'
       }]
     }
