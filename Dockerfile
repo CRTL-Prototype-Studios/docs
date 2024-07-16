@@ -1,6 +1,6 @@
 FROM node:18-alpine
 
-RUN npm install pnpm
+RUN #npm install pnpm
 
 ARG NUXT_UI_PRO_LICENSE
 ENV NUXT_UI_PRO_LICENSE=$NUXT_UI_PRO_LICENSE
