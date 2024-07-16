@@ -1,68 +1,53 @@
-title: 'CRTL Prototype Studios Docs'
-description: The official CRTL Prototype Studios Documentation Website for all libraries and products from us.
+title: "CRTL Prototype Studios Docs"
+description: "The official CRTL Prototype Studios Documentation Website for all libraries and products from us."
 navigation: false
 hero:
   title: 'Develop your project using our services within minutes'
   description: 'Thorough, clean, and organized documentation for our services.'
-  orientation: horizontal
-#  headline:
-#    label: V1.0
-#    to: https://ui.nuxt.com/pro
+  orientation: vertical
+  headline:
+    label: New Docs!
+    to: https://github.com/type-32
 #    icon: i-heroicons-arrow-top-right-on-square-20-solid
   links:
-    - label: Get started
+    - label: 'Get started'
       icon: i-heroicons-arrow-right-20-solid
       trailing: true
       to: '/getting-started'
       size: lg
-    - label: Use this template
+    - label: 'Our Github'
       icon: i-simple-icons-github
       size: lg
       color: gray
-      to: https://github.com/nuxt-ui-pro/docs
+      to: https://github.com/type-32
       target: _blank
-  code: |
-    ```bash [Terminal]
-    npm install crtl
-    ```
-#features:
-#  title: 'All-in-one documentation'
-#  links:
-#    - label: 'Explore our docs and services'
-#      icon: 'i-simple-icons-nuxtdotjs'
-#      trailingIcon: 'i-heroicons-arrow-right-20-solid'
-#      color: 'gray'
-#      to: 'https://ui.nuxt.com/pro'
-#      target: '_blank'
-#      size: lg
-#  items:
-#    - title: 'Nuxt 3'
-#      description: 'Powered by Nuxt 3 for optimal performances and SEO.'
-#      icon: 'i-simple-icons-nuxtdotjs'
-#      to: 'https://nuxt.com'
-#      target: '_blank'
-#    - title: 'Markdown'
-#      description: 'Write your pages with MDC thanks to Nuxt Content.'
-#      icon: 'i-simple-icons-markdown'
-#      to: 'https://content.nuxt.com'
-#      target: '_blank'
-#    - title: 'Nuxt UI'
-#      description: 'Offers a very large set of full customizable components.'
-#      icon: 'i-heroicons-sparkles-20-solid'
-#      to: 'https://ui.nuxt.com'
-#      target: '_blank'
-#    - title: 'TypeScript'
-#      description: 'A fully typed development experience.'
-#      icon: 'i-simple-icons-typescript'
-#      to: 'https://www.typescriptlang.org'
-#      target: '_blank'
-#    - title: 'Nuxt Studio'
-#      description: 'Supported by Nuxt Studio for fast updates and previews.'
-#      icon: 'i-simple-icons-nuxtdotjs'
-#      to: 'https://nuxt.studio'
-#      target: '_blank'
-#    - title: 'Search'
-#      description: 'A full-text search modal empowered by Fuse.js.'
-#      icon: 'i-heroicons-magnifying-glass-20-solid'
-#      to: 'https://ui.nuxt.com/pro/components/docs/docs-search'
-#      target: '_blank'
+#  code: |
+#    ```bash [Terminal]
+#    npm install crtl
+#    ```
+features:
+  title: 'All-in-one documentation'
+  links:
+    - label: 'Explore our docs and services'
+      icon: 'i-simple-icons-nuxtdotjs'
+      trailingIcon: 'i-heroicons-arrow-right-20-solid'
+      color: 'gray'
+      to: 'https://ui.nuxt.com/pro'
+      target: '_blank'
+      size: lg
+  items:
+    - title: 'owo-ui Components'
+      description: 'A better owo-ui component code-and-data-driven documentation.'
+      icon: 'i-simple-icons-nuxtdotjs'
+      to: 'https://nuxt.com'
+      target: '_blank'
+    - title: 'Control UI Refactored'
+      description: 'Use and control your Baritone instance with this simple and easy UI Interface mod.'
+      icon: 'i-simple-icons-markdown'
+      to: 'https://content.nuxt.com'
+      target: '_blank'
+    - title: 'Moodhelper'
+      description: 'Moodhelper is one of our Mental Health Promotion services.'
+      icon: 'i-heroicons-sparkles-20-solid'
+      to: 'https://ui.nuxt.com'
+      target: '_blank'
