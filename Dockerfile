@@ -16,7 +16,7 @@ COPY package*.json ./
 COPY .npmrc ./
 
 # Use pnpm to install dependencies
-RUN pnpm install --frozen-lockfile
+RUN pnpm install
 
 COPY . .
 
