@@ -10,6 +10,7 @@ ENV NUXT_PUBLIC_SITE_URL=$NUXT_PUBLIC_SITE_URL
 WORKDIR /app
 
 COPY package*.json ./
+RUN npm install -g pnpm
 RUN pnpm install
 
 COPY . .
