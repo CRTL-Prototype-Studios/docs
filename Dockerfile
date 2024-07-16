@@ -13,10 +13,11 @@ ENV NUXT_PUBLIC_SITE_URL=$NUXT_PUBLIC_SITE_URL
 WORKDIR /app
 
 COPY package*.json ./
+COPY pnpm-lock.yaml ./
 COPY .npmrc ./
 
 # Use pnpm to install dependencies
-RUN pnpm install
+RUN pnpm install --frozen-lockfile
 
 COPY . .
 
