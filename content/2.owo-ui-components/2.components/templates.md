@@ -4,8 +4,8 @@ description: "The special Template Component."
 category: owo-ui
 ---
 
-::callout{color='amber' icon='i-heroicons-exclamation-triangle'}
-Do keep in mind, at least, in my (_Type-32's_) experience, that the templates feature is not accessible in a code-driven form. If it is,
+::alert{type="warning" icon='i-heroicons-exclamation-triangle'}
+Do keep in mind, at least, in my (_[Type-32](https://github.com/Type-32)_) experience, that the templates feature is not accessible in a code-driven form. If it is,
 please open up a pull-request and help us write the code-driven documentation for the template feature.
 ::
 
