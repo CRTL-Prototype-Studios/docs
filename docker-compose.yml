@@ -6,3 +6,5 @@ services:
     ports:
       - "${SITE_PORT}:3000"
     restart: on-failure
+    environment:
+      - "NUXT_PUBLIC_SITE_URL=https://docs.crtl-prototype-studios.cn"
