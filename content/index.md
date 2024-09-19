@@ -6,24 +6,24 @@ navigation: false
 ::hero
 ---
 announcement:
-  title: 'Release v0.5.2'
+  title: 'New V2 Docs!'
   icon: '🎉'
-  to: https://github.com/ZTL-UwU/shadcn-docs-nuxt/releases
+  to: https://github.com/CRTL-Prototype-Studios/docs
   target: _blank
 actions:
   - name: Get Started
     to: /getting-started
   - name: GitHub
     variant: outline
-    to: https://github.com/ZTL-UwU/shadcn-docs-nuxt
+    to: https://github.com/CRTL-Prototype-Studios/docs
     leftIcon: 'lucide:github'
 ---
 
 #title
-Effortless and Beautiful :br Docs Template.
+Effortless and Beautiful :br Documentation.
 
 #description
-Beautifully designed Nuxt Content template built with shadcn-vue. :br Customizable. Compatible. Open Source.
+CRTL Docs Version 2, deployed using Shadcn-Docs on Nuxt Templates. Works better than ever and looks better than ever!
 ::
 
 <div class="border rounded-lg shadow-md">
