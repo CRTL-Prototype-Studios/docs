@@ -27,5 +27,5 @@ CRTL Docs Version 2, deployed using Shadcn-Docs on Nuxt Templates. Works better 
 ::
 
 <div class="border rounded-lg shadow-md">
-  <iframe src="/getting-started/introduction" height="700" width="100%" class="rounded-lg" scrolling="no" frameborder="0">
+  <iframe src="/getting-started" height="700" width="100%" class="rounded-lg" scrolling="no" frameborder="0">
 </div>
