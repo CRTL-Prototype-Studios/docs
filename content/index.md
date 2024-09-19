@@ -20,7 +20,7 @@ actions:
 ---
 
 #title
-Effortless and Beautiful :br Documentation.
+Documentation for :br CRTL Prototype Studios.
 
 #description
 CRTL Docs Version 2, deployed using Shadcn-Docs on Nuxt Templates. Works better than ever and looks better than ever!
